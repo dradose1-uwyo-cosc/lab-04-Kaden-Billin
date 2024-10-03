@@ -1,8 +1,8 @@
-# Your Name Here
+# Kaden Billin
 # UWYO COSC 1010
-# Submission Date
-# Lab 03 
-# Lab Section: 
+# 10/3/2024
+# Lab 04
+# Lab Section: 12
 # Sources, people worked with, help given to: 
 # your
 # comments
@@ -102,4 +102,16 @@ min_temps = [
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
 
+for i in max_temps:
+    print(sum(max_temps)/len(max_temps))
+
+
+for i in min_temps:
+    print(sum(min_temps)/len(min_temps))
+
+high=sorted(max_temps)
+print("highest temp is", high[-1])
+
+low=sorted(min_temps)
+print("lowest temp is", low[0])
 
